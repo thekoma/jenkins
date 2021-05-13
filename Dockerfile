@@ -10,7 +10,7 @@
 # - Kubernetes Plugin / CLI / Pipeline steps
 # - Openshift Plugin / Pipeline steps
 # - Utility Steps Plugin
-FROM docker.io/jenkins/jenkins:latest
+FROM docker.io/jenkins/jenkins:lts-jdk11
 MAINTAINER Marco Caimi
 
 # Upload plugin list and install them
