@@ -43,3 +43,5 @@ blueocean
 authorize-project
 antisamy-markup-formatter
 ant
+command-launcher
+jdk-tool
