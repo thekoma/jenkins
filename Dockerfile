@@ -10,8 +10,8 @@
 # - Kubernetes Plugin / CLI / Pipeline steps
 # - Openshift Plugin / Pipeline steps
 # - Utility Steps Plugin
-FROM docker.io/jenkins/jenkins:lts-jdk11
-MAINTAINER Marco Caimi
+FROM quay.io/redhat-developer/origin-jenkins
+LABEL MAINTAINER="Andrea Cervesato"
 
 # Upload plugin list and install them
 COPY --chown=jenkins:jenkins files/plugins-list /tmp/install-plugins-list.txt
