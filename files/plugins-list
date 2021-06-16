@@ -1,4 +1,5 @@
 kubernetes-pipeline-devops-steps
+snakeyaml-api
 kubernetes-credentials-provider
 kubernetes-credentials
 kubernetes-client-api
@@ -11,3 +12,4 @@ configuration-as-code-groovy
 configuration-as-code
 git
 keycloak
+seed
