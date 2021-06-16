@@ -4,6 +4,8 @@ kubernetes-credentials
 kubernetes-client-api
 kubernetes-cli
 kubernetes
+credentials
+variant
 job-dsl
 configuration-as-code-groovy
 configuration-as-code
